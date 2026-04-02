@@ -1,0 +1,74 @@
+name: fuel_tracker_app
+description: Fuel Tracker & Control System for Heavy Equipment
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI
+  cupertino_icons: ^1.0.6
+  flutter_svg: ^2.0.9
+  shimmer: ^3.0.0
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # Database & Storage (Web Compatible)
+  shared_preferences: ^2.2.2
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  
+  # Camera & Image
+  image_picker: ^1.0.5
+  path_provider: ^2.1.5
+  
+  # Location
+  geolocator: ^10.1.0
+  geocoding: ^2.1.1
+  
+  # QR Code
+  mobile_scanner: ^4.0.1
+  
+  # Network
+  http: ^1.1.0
+  dio: ^5.4.0
+  connectivity_plus: ^5.0.2
+  
+  # Utilities
+  intl: ^0.18.1
+  uuid: ^4.2.1
+  logger: ^2.0.2
+  url_launcher: ^6.2.1
+  
+  # Charts & Maps
+  fl_chart: ^0.66.0
+  
+  # Permissions
+  permission_handler: ^11.0.0
+  
+  # App info
+  package_info_plus: ^5.0.1
+  
+  # Web compatibility
+  web: ^0.4.0
+  js: ^0.6.7
+  supabase_flutter: ^2.8.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  build_runner: ^2.4.13
+  hive_generator: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/icons/

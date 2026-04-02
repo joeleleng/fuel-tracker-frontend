@@ -1,0 +1,85 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin123",
+      "name": "Administrator",
+      "role": "admin",
+      "email": "admin@company.com",
+      "unit_code": null
+    },
+    {
+      "id": "2",
+      "username": "opr001",
+      "password": "password123",
+      "name": "Budi Santoso",
+      "role": "operator",
+      "email": "budi@company.com",
+      "unit_code": "EXC-01"
+    },
+    {
+      "id": "3",
+      "username": "opr002",
+      "password": "password123",
+      "name": "Samsul",
+      "role": "operator",
+      "email": "samsul@company.com",
+      "unit_code": "HD-465-01"
+    },
+    {
+      "id": "4",
+      "username": "fml001",
+      "password": "password123",
+      "name": "Ahmad Fauzi",
+      "role": "fuelman",
+      "email": "ahmad@company.com",
+      "unit_code": null
+    },
+    {
+      "id": "5",
+      "username": "fml002",
+      "password": "password123",
+      "name": "Rudi Hartono",
+      "role": "fuelman",
+      "email": "rudi@company.com",
+      "unit_code": null
+    },
+    {
+      "id": "6",
+      "username": "spv001",
+      "password": "password123",
+      "name": "Supervisor Site",
+      "role": "supervisor",
+      "email": "spv@company.com",
+      "unit_code": null
+    }
+  ],
+  "units": [
+    {
+      "unit_code": "EXC-01",
+      "type_name": "Komatsu PC2000",
+      "category": "Excavator",
+      "status": "active",
+      "tank_capacity": 800,
+      "gps_id": "GPS-001"
+    },
+    {
+      "unit_code": "HD-465-01",
+      "type_name": "Komatsu HD465",
+      "category": "Dump Truck",
+      "status": "active",
+      "tank_capacity": 1200,
+      "gps_id": "GPS-004"
+    },
+    {
+      "unit_code": "SKT-105-01",
+      "type_name": "SANY SKT105S",
+      "category": "Dump Truck",
+      "status": "active",
+      "tank_capacity": 1100,
+      "gps_id": "GPS-006"
+    }
+  ],
+  "fuelEntries": []
+}
